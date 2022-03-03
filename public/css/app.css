@@ -12173,12 +12173,12 @@ fieldset:disabled .btn {
   }
 }
 
-.logo {
-  width: 75px;
-}
-
 .header-navbar {
   height: 100px;
+}
+
+.header-navbar .logo {
+  width: 75px;
 }
 
 .header-navbar .links a {
@@ -12204,5 +12204,86 @@ fieldset:disabled .btn {
 
 .header-navbar .header-search::placeholder {
   color: black;
+}
+
+.jumbotron {
+  height: 500px;
+  position: relative;
+  background: url("/images/jumbotron.jpg") no-repeat;
+}
+
+.comics-background {
+  height: 650px;
+  background-color: #1c1c1c;
+}
+
+.comics-background .comics-container {
+  position: relative;
+}
+
+.comics-background .comics-container .series-info {
+  padding: 10px 25px;
+  background-color: #0282f9;
+  color: white;
+  position: absolute;
+  transform: translate(0%, -50%);
+}
+
+.shop-nav {
+  background-color: #0282f9;
+  color: white;
+  font-weight: bold;
+  height: 150px;
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+}
+
+.shop-img-container {
+  height: 75px;
+}
+
+.shop-img-container img {
+  max-height: 100%;
+}
+
+footer {
+  background: url("/images/footer-bg.jpg");
+  background-size: 100%;
+}
+
+footer .container {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+footer .container > div {
+  width: 50%;
+}
+
+footer .container .footer-left {
+  display: flex;
+  color: white;
+  text-align: left;
+  padding: 30px 0;
+}
+
+footer .container .footer-left > div {
+  margin-right: 30px;
+}
+
+footer .container .footer-left > div p {
+  color: grey;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+footer .container .footer-right {
+  background: url("/images/dc-logo-bg.png") no-repeat;
+  background-position: 50%;
 }
 

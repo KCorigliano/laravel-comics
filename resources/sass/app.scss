@@ -1,27 +1,6 @@
 @import "~bootstrap/scss/bootstrap";
 
-.logo{
-    width: 75px;
-}
+@import "./partials/header";
+@import "./partials/main";
+@import "./partials/footer";
 
-.header-navbar{
-    height: 100px;
-    .links{
-        a{
-            margin: 0 10px;
-            color: black;
-            text-decoration: none;
-            font-weight: bold;
-        }
-    }
-
-    .header-search{
-        border: none;
-        border-bottom: 2px solid blue;
-        text-align: end;
-    }
-
-    .header-search::placeholder{
-        color: black;
-    }
-}

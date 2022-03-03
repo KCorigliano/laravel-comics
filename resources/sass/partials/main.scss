@@ -1,0 +1,36 @@
+.comics-background{
+    height: 650px;
+    background-color: #1c1c1c;
+    
+    .comics-container{
+        position: relative;
+
+        .series-info{
+            padding: 10px 25px;
+            background-color: #0282f9;
+            color: white;
+            position: absolute;
+            transform: translate(0%, -50%);
+        }
+    }
+}
+
+.shop-nav{
+    background-color: #0282f9;
+    color: white;
+    font-weight: bold;
+    height: 150px;
+}
+
+.flex-container{
+    display: flex;
+    align-items: center;
+}
+
+.shop-img-container{
+    height: 75px;
+
+    img{
+        max-height: 100%;
+    }
+}
